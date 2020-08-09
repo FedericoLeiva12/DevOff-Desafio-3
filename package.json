@@ -1,0 +1,31 @@
+{
+  "name": "DevOff-Desafio-3",
+  "version": "1.0.0",
+  "description": "![](https://static-cdn.jtvnw.net/jtv_user_pictures/fb425ddf-5e67-4c84-9210-8065809675f7-profile_banner-480.png) # Desafío 3 - 09/08/2020",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FedericoLeiva12/DevOff-Desafio-3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FedericoLeiva12/DevOff-Desafio-3/issues"
+  },
+  "homepage": "https://github.com/FedericoLeiva12/DevOff-Desafio-3#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "nodemon": "^2.0.4",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
